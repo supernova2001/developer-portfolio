@@ -257,7 +257,7 @@ export default function Home() {
               <Button
                 variant="outline"
                 onClick={() => scrollTo(document.querySelector("#about"))}
-                style={{backgroundColor: "white !important", borderColor: "white !important", color: "black !important", "&:hover": {color: "black !important"}}}
+                style={{backgroundColor: "white !important", borderColor: "white !important", color: "black !important"}}
               >
                 Learn more
               </Button>
