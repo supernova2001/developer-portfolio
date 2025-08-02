@@ -39,8 +39,8 @@ const variants = {
 const navLinks = [
   { href: "#home", text: "Home" },
   { href: "#about", text: "About" },
+  { href: "#services", text: "Experience" },
   { href: "#projects", text: "Projects" },
-  { href: "#services", text: "Services" },
 ];
 
 function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
@@ -82,7 +82,7 @@ export default function Container(props: ContainerProps) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Wendo",
+    title: "Janakiram Sharma | Full Stack Developer",
     description: `Full-stack website developer and TypeScript enthusiast.`,
     image: "/assets/logo.webp",
     type: "website",
@@ -163,7 +163,7 @@ export default function Container(props: ContainerProps) {
           </button>
         </div>
         <Link href="/">
-          <span className="text-lg font-semibold">wendo</span>
+          <span className="text-lg font-semibold" style={{color: "white !important"}}>JK</span>
         </Link>
 
         {/* Desktop menu */}
