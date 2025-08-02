@@ -377,9 +377,7 @@ export default function Home() {
           key={company.name}
 className="flex flex-col items-start rounded-md bg-black/5 p-8 shadow-md backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:bg-white/10 hover:shadow-md text-base xl:text-lg"
         >
-          {company.icon && (
-            <company.icon className="mb-4 text-primary" size={24} />
-          )}
+    
           <span className="text-xl font-semibold tracking-tight text-foreground" style={{color: "#FFC857"}}>
             {company.name}
           </span>
